@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <br>
-        <form action="" class="form-inline">
+        <form action="" class="form-horizontal">
 
             <div class="form-group">
                 <label class="sr-only" for="nombre">Nombre: </label>
@@ -18,10 +18,15 @@
             </div>
 
             <div class="form-group">
-                <label for="nombre" class="control-label col-md-2">Nombre: </label>
-                <div class="col-md-10">
-                    <p>Facundo Matias Ferrara</p>
-                </div>
+                <label for="option" >Elige una opción: </label>
+                <select class="form-control" name="" id="option">
+                    <option value="">Opción #1</option>
+                    <option value="">Opción #2</option>
+                    <option value="">Opción #3</option>
+                    <option value="">Opción #4</option>
+                    <option value="">Opción #5</option>
+
+                </select>
             </div>
         
             <div class="form-group">
@@ -31,12 +36,16 @@
                 </div>
             </div>
         
-            <div class="checkbox">
-                <label for="">
-                    <input type="checkbox" name="" id="">Recuerdame</label>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label for="">
+                        <input type="checkbox" name="" id="">Recuerdame</label>
+                </div>
             </div>
-        
-            <button class="btn-primary">Enviar</button>
+            <div class="form-group">
+                <button class="btn-primary">Enviar</button>
+            </div>
+            
         </form>
     </div>
 </body>
